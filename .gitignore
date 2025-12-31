@@ -16,7 +16,9 @@ runs_*/
 *.hdf5
 *.fit
 *.fit.gz
-research/(เอ๋อ)01-physics/
+*.csv
+timeseries*.csv
+research/ปรับ/
 
 # IDE
 .idea/
@@ -42,6 +44,7 @@ htmlcov/
 runs_*/
 *.h5
 *.hdf5
+*.csv
 
 # OS files
 .DS_Store
@@ -54,3 +57,7 @@ Thumbs.db
 # Local configs
 .env
 *.local
+
+# Large folders to exclude
+Fali/
+KEEP/

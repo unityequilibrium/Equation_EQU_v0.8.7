@@ -1,0 +1,43 @@
+{
+  "source": "Multiple experiments (IceCube, DANSS, KATRIN, reactors)",
+  "last_updated": "2024",
+  "delta_m41_sq": {
+    "best_fit": 1.3,
+    "range": [
+      0.1,
+      10
+    ],
+    "unit": "eV^2",
+    "description": "Mass-squared difference for 4th neutrino"
+  },
+  "sin2_2theta_mue": {
+    "best_fit": 0.0007,
+    "upper_limit_90CL": 0.003,
+    "unit": "",
+    "description": "Effective \u03bd\u03bc\u2192\u03bde appearance mixing"
+  },
+  "sin2_2theta_ee": {
+    "best_fit": 0.05,
+    "range": [
+      0.01,
+      0.1
+    ],
+    "unit": "",
+    "description": "Reactor \u03bde disappearance mixing"
+  },
+  "keV_sterile": {
+    "mass_range_keV": [
+      1,
+      50
+    ],
+    "mixing_sq_upper": 1e-10,
+    "description": "Warm dark matter candidate",
+    "source": "X-ray observations (XMM-Newton, Chandra)"
+  },
+  "LSND_anomaly": {
+    "delta_m2": 1.2,
+    "sin2_2theta": 0.003,
+    "status": "Not confirmed by other experiments",
+    "description": "Possible 4th neutrino signal"
+  }
+}

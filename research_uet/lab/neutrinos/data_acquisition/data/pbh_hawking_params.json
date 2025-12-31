@@ -1,0 +1,24 @@
+{
+  "source": "Theoretical predictions + MIT/KM3NeT proposal",
+  "last_updated": "2025",
+  "M_critical": {
+    "value": 500000000000000.0,
+    "unit": "grams",
+    "description": "PBH mass for evaporation in ~age of universe"
+  },
+  "T_hawking_formula": "T = hbar*c^3 / (8*pi*G*M*k_B)",
+  "T_for_1e15g": {
+    "value": 100000000000.0,
+    "unit": "K",
+    "description": "Hawking temperature for M=10^15 g"
+  },
+  "km3net_event": {
+    "energy_PeV": 100,
+    "description": ">100 PeV neutrino potentially from PBH explosion",
+    "status": "Proposed but not confirmed"
+  },
+  "neutrino_fraction": {
+    "value": 0.06,
+    "description": "Fraction of Hawking radiation in neutrinos"
+  }
+}

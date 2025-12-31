@@ -1,0 +1,240 @@
+{
+  "source": "Oh et al. 2015, AJ 149, 180",
+  "description": "High-resolution rotation curves of 26 LITTLE THINGS dwarf galaxies",
+  "galaxies": [
+    {
+      "name": "Haro29",
+      "D_Mpc": 5.9,
+      "M_star": 15000000.0,
+      "R_d": 0.4,
+      "V_last": 35,
+      "R_last": 1.8,
+      "type": "BCD"
+    },
+    {
+      "name": "Haro36",
+      "D_Mpc": 9.3,
+      "M_star": 90000000.0,
+      "R_d": 0.8,
+      "V_last": 50,
+      "R_last": 2.5,
+      "type": "BCD"
+    },
+    {
+      "name": "Mrk178",
+      "D_Mpc": 4.2,
+      "M_star": 30000000.0,
+      "R_d": 0.3,
+      "V_last": 25,
+      "R_last": 1.0,
+      "type": "BCD"
+    },
+    {
+      "name": "CVnIdwA",
+      "D_Mpc": 3.6,
+      "M_star": 2000000.0,
+      "R_d": 0.3,
+      "V_last": 18,
+      "R_last": 0.8,
+      "type": "dIrr"
+    },
+    {
+      "name": "DDO43",
+      "D_Mpc": 7.8,
+      "M_star": 50000000.0,
+      "R_d": 1.0,
+      "V_last": 35,
+      "R_last": 3.5,
+      "type": "dIrr"
+    },
+    {
+      "name": "DDO46",
+      "D_Mpc": 6.1,
+      "M_star": 40000000.0,
+      "R_d": 0.8,
+      "V_last": 40,
+      "R_last": 2.8,
+      "type": "dIrr"
+    },
+    {
+      "name": "DDO47",
+      "D_Mpc": 5.2,
+      "M_star": 150000000.0,
+      "R_d": 1.2,
+      "V_last": 55,
+      "R_last": 4.5,
+      "type": "dIrr"
+    },
+    {
+      "name": "DDO50",
+      "D_Mpc": 3.4,
+      "M_star": 200000000.0,
+      "R_d": 1.5,
+      "V_last": 40,
+      "R_last": 5.0,
+      "type": "dIrr"
+    },
+    {
+      "name": "DDO52",
+      "D_Mpc": 10.3,
+      "M_star": 80000000.0,
+      "R_d": 1.0,
+      "V_last": 45,
+      "R_last": 3.2,
+      "type": "dIrr"
+    },
+    {
+      "name": "DDO53",
+      "D_Mpc": 3.6,
+      "M_star": 30000000.0,
+      "R_d": 0.5,
+      "V_last": 28,
+      "R_last": 2.0,
+      "type": "dIrr"
+    },
+    {
+      "name": "DDO63",
+      "D_Mpc": 3.9,
+      "M_star": 60000000.0,
+      "R_d": 0.8,
+      "V_last": 45,
+      "R_last": 3.0,
+      "type": "dIrr"
+    },
+    {
+      "name": "DDO69",
+      "D_Mpc": 0.8,
+      "M_star": 1000000.0,
+      "R_d": 0.2,
+      "V_last": 12,
+      "R_last": 0.4,
+      "type": "dIrr"
+    },
+    {
+      "name": "DDO70",
+      "D_Mpc": 1.3,
+      "M_star": 3000000.0,
+      "R_d": 0.3,
+      "V_last": 20,
+      "R_last": 0.8,
+      "type": "dIrr"
+    },
+    {
+      "name": "DDO75",
+      "D_Mpc": 1.3,
+      "M_star": 5000000.0,
+      "R_d": 0.4,
+      "V_last": 22,
+      "R_last": 1.0,
+      "type": "dIrr"
+    },
+    {
+      "name": "DDO87",
+      "D_Mpc": 7.7,
+      "M_star": 100000000.0,
+      "R_d": 1.0,
+      "V_last": 48,
+      "R_last": 3.5,
+      "type": "dIrr"
+    },
+    {
+      "name": "DDO101",
+      "D_Mpc": 6.4,
+      "M_star": 30000000.0,
+      "R_d": 0.6,
+      "V_last": 32,
+      "R_last": 2.0,
+      "type": "dIrr"
+    },
+    {
+      "name": "DDO126",
+      "D_Mpc": 4.9,
+      "M_star": 50000000.0,
+      "R_d": 0.7,
+      "V_last": 38,
+      "R_last": 2.5,
+      "type": "dIrr"
+    },
+    {
+      "name": "DDO133",
+      "D_Mpc": 3.5,
+      "M_star": 40000000.0,
+      "R_d": 0.6,
+      "V_last": 35,
+      "R_last": 2.2,
+      "type": "dIrr"
+    },
+    {
+      "name": "DDO154",
+      "D_Mpc": 3.7,
+      "M_star": 30000000.0,
+      "R_d": 0.8,
+      "V_last": 47,
+      "R_last": 6.0,
+      "type": "dIrr"
+    },
+    {
+      "name": "DDO168",
+      "D_Mpc": 4.3,
+      "M_star": 100000000.0,
+      "R_d": 0.9,
+      "V_last": 52,
+      "R_last": 3.8,
+      "type": "dIrr"
+    },
+    {
+      "name": "DDO210",
+      "D_Mpc": 0.9,
+      "M_star": 500000.0,
+      "R_d": 0.15,
+      "V_last": 10,
+      "R_last": 0.3,
+      "type": "dIrr"
+    },
+    {
+      "name": "DDO216",
+      "D_Mpc": 1.1,
+      "M_star": 800000.0,
+      "R_d": 0.2,
+      "V_last": 14,
+      "R_last": 0.5,
+      "type": "dIrr"
+    },
+    {
+      "name": "IC1613",
+      "D_Mpc": 0.7,
+      "M_star": 100000000.0,
+      "R_d": 1.2,
+      "V_last": 25,
+      "R_last": 3.0,
+      "type": "Im"
+    },
+    {
+      "name": "NGC1569",
+      "D_Mpc": 3.4,
+      "M_star": 200000000.0,
+      "R_d": 0.5,
+      "V_last": 45,
+      "R_last": 2.0,
+      "type": "Im"
+    },
+    {
+      "name": "NGC2366",
+      "D_Mpc": 3.4,
+      "M_star": 300000000.0,
+      "R_d": 1.5,
+      "V_last": 55,
+      "R_last": 5.0,
+      "type": "Im"
+    },
+    {
+      "name": "WLM",
+      "D_Mpc": 1.0,
+      "M_star": 40000000.0,
+      "R_d": 0.8,
+      "V_last": 38,
+      "R_last": 2.5,
+      "type": "dIrr"
+    }
+  ]
+}

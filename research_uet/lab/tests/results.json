@@ -1,0 +1,42 @@
+{
+  "01_Galaxies": {
+    "status": "PASS",
+    "equation": "M_halo = k/\u221a\u03c1"
+  },
+  "02_Brain": {
+    "status": "FAIL",
+    "equation": "\u03b2 \u2248 2 spectrum"
+  },
+  "03_Economy": {
+    "status": "PASS",
+    "equation": "V = C \u00d7 I^k"
+  },
+  "04_Bio": {
+    "status": "PASS",
+    "equation": "d\u03a9/dt \u2264 0"
+  },
+  "05_Medical": {
+    "status": "PASS",
+    "equation": "Diffusion"
+  },
+  "06_Climate": {
+    "status": "WARN",
+    "equation": "Forced \u03a9"
+  },
+  "07_Inequality": {
+    "status": "WARN",
+    "equation": "Economic k"
+  },
+  "08_Supernova": {
+    "status": "PASS",
+    "equation": "d\u03a9/dt \u2264 0"
+  },
+  "09_Neutrino": {
+    "status": "PASS",
+    "equation": "g-2 Anomaly"
+  },
+  "10_Grand_Bridge": {
+    "status": "PASS",
+    "equation": "M_I ~ 4\u03c0 k"
+  }
+}

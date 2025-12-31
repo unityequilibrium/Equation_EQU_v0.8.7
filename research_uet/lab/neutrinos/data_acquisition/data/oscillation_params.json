@@ -1,0 +1,56 @@
+{
+  "source": "PDG 2024 (Particle Data Group)",
+  "url": "https://pdglive.lbl.gov",
+  "last_updated": "2024",
+  "sin2_theta12": {
+    "value": 0.307,
+    "error": 0.013,
+    "unit": ""
+  },
+  "theta12_deg": {
+    "value": 33.44,
+    "error": 0.76,
+    "unit": "degrees"
+  },
+  "delta_m21_sq": {
+    "value": 7.53e-05,
+    "error": 1.8e-06,
+    "unit": "eV^2"
+  },
+  "sin2_theta23_NO": {
+    "value": 0.545,
+    "error": 0.021,
+    "unit": ""
+  },
+  "theta23_deg_NO": {
+    "value": 47.6,
+    "error": 1.2,
+    "unit": "degrees"
+  },
+  "delta_m32_sq_NO": {
+    "value": 0.002453,
+    "error": 3.3e-05,
+    "unit": "eV^2"
+  },
+  "sin2_theta13": {
+    "value": 0.022,
+    "error": 0.0007,
+    "unit": ""
+  },
+  "theta13_deg": {
+    "value": 8.54,
+    "error": 0.14,
+    "unit": "degrees"
+  },
+  "delta_CP_deg": {
+    "value": 197,
+    "error_plus": 42,
+    "error_minus": 24,
+    "unit": "degrees"
+  },
+  "delta_m31_sq_NO": {
+    "value": 0.002528,
+    "error": 3.2e-05,
+    "unit": "eV^2"
+  }
+}
