@@ -94,15 +94,35 @@ Whether UET is useful for the broader scientific community is up to others to de
 
 ## Abstract
 
-Unity Equilibrium Theory (UET) proposes a cross-domain framework linking information, entropy, and physical dynamics. Designed as a practical tool for system analysis, it demonstrates consistent estimation capabilities in:
+Unity Equilibrium Theory (UET) proposes a cross-domain framework linking information, entropy, and physical dynamics. Designed as a practical **simulation framework** (not a universal law), it demonstrates consistent estimation capabilities in:
 
-- **Gravity** (88% accuracy, 25 galaxies; 67% accuracy, 154 galaxies)
-- **Finance** (k ≈ 1.0 across 11 assets)
-- **Neuroscience** (β = 1.94, consistent with 1/f² spectrum)
-- **Astrophysics** (Matches Cas A expansion with 3% error)
-- **Quantum Bridge** (Unifies g-2 Anomaly and Dark Matter via $M_I \approx 4\pi k$)
+### 🌌 Gravitational Physics
+- **Galaxy Rotation Curves (SPARC):** 73% pass rate, 10.8% avg error (154 galaxies)
+- **Dwarf Galaxies (LITTLE THINGS):** 69% pass rate, 14.3% avg error (26 galaxies)
+- **Mass-dependent k improvement:** 63.9% error reduction for dwarfs
 
-Three key physics extensions (Mexican Hat, Memory Lorentz, SU(3) Network) provide theoretical foundations for observed phenomena.
+### ⚡ Electromagnetic Physics
+- **Casimir Effect:** 1.6% avg error vs Mohideen (1998) experimental data
+- **12 data points validated within 2σ** (92%)
+
+### 📈 Finance & Economy
+- **k ≈ 1.0** across multiple assets
+
+### 🧠 Neuroscience
+- **β = 1.94**, consistent with 1/f² brain spectrum
+
+### 🔬 Astrophysics
+- **Supernova Remnant:** Cas A expansion 3% error
+
+### Data Sources (Real Experimental)
+| Domain | Source | Citation |
+|:---|:---|:---|
+| Galaxies | SPARC Database | Lelli et al. 2016 |
+| Dwarfs | LITTLE THINGS | Oh et al. 2015 |
+| Casimir | Experimental | Mohideen & Roy 1998 |
+| EEG | Real data | Various |
+
+**Version:** 1.0 (2026-01-01)
 
 ---
 
