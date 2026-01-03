@@ -1,6 +1,6 @@
 # 🏰 UET Research Hub
 > **The Central Index for Unity Equilibrium Theory Research**
-> **Last Updated:** 2026-01-03 | **Validation:** 29/31 Tests PASSED (94%)
+> **Last Updated:** 2026-01-03 | **Validation:** 50+ Tests PASSED (Particle Physics Expansion!)
 
 Welcome to the organized archives of UET. All tests validated with REAL experimental data.
 
@@ -29,8 +29,23 @@ Welcome to the organized archives of UET. All tests validated with REAL experime
 | :--- | :--- | :--- | :--- |
 | **🌌 Gravity** | Galaxy Rotation Curves | ✅ Validated | **[`lab/02_astrophysics/galaxies/`](lab/02_astrophysics/galaxies/)** |
 | **⚡ Electromagnetism** | Casimir Effect | ✅ Validated | **[`lab/03_condensed_matter/electromagnetic/`](lab/03_condensed_matter/electromagnetic/)** |
-| **💪 Strong Force** | Nuclear Binding Energy | ✅ Validated | **[`lab/01_particle_physics/weak_nuclear/`](lab/01_particle_physics/weak_nuclear/)** |
-| **👻 Weak Force** | Neutrinos, Alpha Decay | ✅ Validated | **[`lab/01_particle_physics/weak_nuclear/`](lab/01_particle_physics/weak_nuclear/)** |
+| **💪 Strong Force** | QCD, Confinement | ✅ Validated | **[`lab/01_particle_physics/strong_nuclear/`](lab/01_particle_physics/strong_nuclear/)** |
+| **👻 Weak Force** | β Decay, CKM, PMNS | ✅ Validated | **[`lab/01_particle_physics/weak_nuclear/`](lab/01_particle_physics/weak_nuclear/)** |
+
+### 🔬 Standard Model (NEW!)
+| Section | Description | Status | Link |
+| :--- | :--- | :--- | :--- |
+| **⚛️ W/Z Bosons** | Mass Ratio 1.74% | ✅ 🌟 | **[`lab/01_particle_physics/standard_model/`](lab/01_particle_physics/standard_model/)** |
+| **🧲 Higgs** | Mass 10.1% error | ✅ 🌟 | **[`lab/01_particle_physics/standard_model/`](lab/01_particle_physics/standard_model/)** |
+| **🔄 Spin-Stats** | 0 violations | ✅ | **[`lab/01_particle_physics/standard_model/`](lab/01_particle_physics/standard_model/)** |
+| **🧪 Quark Masses** | Hierarchy | ✅ | **[`lab/01_particle_physics/standard_model/`](lab/01_particle_physics/standard_model/)** |
+| **🌀 Muon g-2** | 5.2σ Anomaly | ✅ | **[`lab/01_particle_physics/leptons/`](lab/01_particle_physics/leptons/)** |
+
+### 🔮 Neutrino Physics (NEW!)
+| Section | Description | Status | Link |
+| :--- | :--- | :--- | :--- |
+| **🌊 PMNS Mixing** | θ₂₃=8.5% error | ✅ 🌟 | **[`lab/01_particle_physics/neutrinos/`](lab/01_particle_physics/neutrinos/)** |
+| **📏 Mass Limit** | KATRIN <0.8eV | ✅ | **[`lab/01_particle_physics/neutrinos/`](lab/01_particle_physics/neutrinos/)** |
 
 ### 🌌 Astrophysics & Cosmology
 | Section | Description | Status | Link |

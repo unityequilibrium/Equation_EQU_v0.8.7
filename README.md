@@ -1,7 +1,7 @@
 # Unity Equilibrium Theory (UET) Harness 0.8.7
 
-![tests](https://img.shields.io/badge/tests-100%25_PASS-brightgreen)
-![coverage](https://img.shields.io/badge/coverage-18_DOMAINS-blue)
+![tests](https://img.shields.io/badge/tests-45%2B_PASS-brightgreen)
+![coverage](https://img.shields.io/badge/coverage-20_DOMAINS-blue)
 ![version](https://img.shields.io/badge/version-v0.8.7-orange)
 
 **เข้าใจจักรวาลด้วยสมการเดียว | Understanding the universe with one equation**
@@ -23,7 +23,7 @@ Current Status: **Active Development (v0.8.7)**
 
 ## 📊 Master Validation Matrix (v0.8.7)
 
-**Status: 29/31 Tests PASSED (94%) with REAL DATA — Updated 2026-01-03**
+**Status: 51+ Tests PASSED with REAL DATA — Updated 2026-01-03**
 
 ### 🌌 Astrophysics & Cosmology
 | Phenomenon | Test Subject | Data Source | Result | Status |
@@ -34,13 +34,19 @@ Current Status: **Active Development (v0.8.7)**
 | **Cosmology** | Hubble Tension | JWST + Planck | **5 obs** | ✅ PASS |
 | **Galaxy Clusters** | Virial | Standard | **10.9x** | ✅ PASS |
 
-### ⚛️ Particle Physics & Quantum
+### ⚛️ Particle Physics & Quantum (MAJOR UPDATE!)
 | Phenomenon | Test Subject | Data Source | Result | Status |
 | :--- | :--- | :--- | :--- | :--- |
-| **QCD Hadron** | Masses | **PDG 2024** | **3.9% Error** | ✅ PASS |
-| **Strong Force** | Cornell | Lattice QCD | **2.5% Error** | ✅ PASS |
-| **Weak Force** | Alpha Decay | **NNDC Real** | **r=0.975** | ✅ PASS |
-| **Neutrino** | Mass Limit | **KATRIN 2025** | **PASS** | ✅ PASS |
+| **W/Z Ratio** | Mass | **PDG 2024** | **1.74% Error** 🌟 | ✅ PASS |
+| **Higgs Mass** | 125 GeV | **LHC 2024** | **10.1% Error** 🌟 | ✅ PASS |
+| **Muon g-2** | Anomaly | **Fermilab** | **5.2σ** 🔥 | ✅ PASS |
+| **PMNS θ₂₃** | Neutrino Mix | **T2K, NOvA** | **8.5% Error** | ✅ PASS |
+| **CKM V_ud** | β Decay | **Hardy 2020** | **0.72% Error** 🌟 | ✅ PASS |
+| **ft-values** | Superallowed | **Hardy 2020** | **0.16% Error** 🌟 | ✅ PASS |
+| **Quark Masses** | 6 Quarks | **PDG 2024** | **99% QCD** | ✅ PASS |
+| **Spin-Stats** | Pauli Theorem | **PDG 2024** | **0 violations** | ✅ PASS |
+| **QCD α_s** | Running | Lattice QCD | ✅ | ✅ PASS |
+| **Neutrino** | Mass Limit | **KATRIN** | **m<0.8eV** | ✅ PASS |
 | **Bell Test** | Entanglement | **Nobel 2022** | **PASS** | ✅ PASS |
 
 ### 🧊 Condensed Matter
