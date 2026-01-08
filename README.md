@@ -8,15 +8,15 @@
 
 ---
 
-## � The Origin Story: Solving "Social Friction"
+## 💡 The Origin: The Science of System Longevity
 
-UET did not begin in a physics lab. It began with a question about **Living Together**: Why is there conflict? Why is social harmony so hard to maintain?
+UET began with a simple observation: **Human systems collapse quickly; Nature's systems last for billions of years.**
+Why? What is nature doing that we aren't?
 
-The core insight was found in **Thermodynamic Balance**:
-*   *Conflict* is "Rejection" (High Energy Cost).
-*   *Harmony* is "Acceptance" (Low Energy Cost).
+We sought to understand the "Natural Ethics"—the protocol that allows matter to coexist for eons.
+When we translated this intent into mathematics, we didn't just get social theory. **We derived the laws of Physics.**
 
-We realized that the rules governing human relationships (Ethics) are identical to the rules governing atoms (Thermodynamics). Both seek to minimize the cost of interaction. We extrapolated this "Social Theory" to the physical universe and found that it fits perfectly. **Physics is just the ethics of matter.**
+Physics is not abstract philosophy. It is the **System Administration of the Universe**, managing resources to prevent the system from crashing.
 
 ---
 
@@ -65,6 +65,8 @@ How "Normal World" concepts translate to "UET Information" concepts.
 | Domain         | Standard Concept  | UET Translation                          | Why it matches?                                                          |
 | :------------- | :---------------- | :--------------------------------------- | :----------------------------------------------------------------------- |
 | **Classical**  | **Force** ($F$)   | **Information Gradient** ($\nabla I$)    | Things move to where Information Density is lower (High $P$ to Low $P$). |
+| **Classical**  | **Action** ($S$)  | **Total Cost**                           | Sum of all energy usage over time. Min $S$ = Min Cost.                   |
+| **Classical**  | **Lagrangian**($L$)| **Efficiency Rate**                     | How well the system balances Kinetic vs. Potential.                      |
 | **Classical**  | **Inertia** ($m$) | **Update Latency** ($\tau$)              | Heavy objects take more cycles to update position.                       |
 | **Thermo**     | **Entropy** ($S$) | **Address Scrambling**                   | Lost order = Harder to find the address.                                 |
 | **Thermo**     | **Heat** ($Q$)    | **Write Noise**                          | Energy released when bits are flipped.                                   |

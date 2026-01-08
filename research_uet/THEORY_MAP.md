@@ -30,6 +30,8 @@ How "Normal World" concepts translate to "UET Information" concepts.
 | :--- | :--- | :--- | :--- |
 | **Classical** | **Force** ($F$) | **Information Gradient** ($\nabla I$) | Things move to where Information Density is lower (High $P$ to Low $P$). |
 | **Classical** | **Inertia** ($m$) | **Update Latency** ($\tau$) | Heavy objects take more cycles to update position. |
+| **Classical** | **Action** ($S$) | **Total Cost** | Sum of all energy usage over time. Min $S$ = Min Cost. |
+| **Classical** | **Lagrangian** ($L$) | **Efficiency Rate** | How well the system balances Kinetic vs. Potential. |
 | **Thermo** | **Entropy** ($S$) | **Address Scrambling** | Lost order = Harder to find the address. |
 | **Thermo** | **Heat** ($Q$) | **Write Noise** | Energy released when bits are flipped. |
 | **Relativity** | **Gravity** ($g$) | **Capacity Pressure** | Saturation of storage bends the path. |
