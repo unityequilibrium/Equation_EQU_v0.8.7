@@ -36,6 +36,11 @@ For computational simulation, this logic translates into the Phase Field equatio
 Ω[C, I] = ∫ [V(C) + (κ/2)|∇C|² + β·C·I + ½I²] dx
 ```
 
+| Term | Meaning | UET Status |
+| :--- | :--- | :---: |
+| **Universal** | Fixed law, applies everywhere | ❌ NOT this |
+| **Unity** | Connects domains, context-aware | ✅ This |
+
 ---
 
  1. The Tree of Physics
