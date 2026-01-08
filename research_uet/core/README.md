@@ -20,7 +20,7 @@
 ## 🎯 Core Equation
 
 ```math
-Ω[C, I] = ∫ [V(C) + (κ/2)|∇C|² + β·C·I] dx
+Ω[C, I] = ∫ [V(C) + (κ/2)|∇C|² + β·C·I + ½I²] dx
 ```
 
 | Variable | Meaning |
@@ -28,16 +28,17 @@
 | **C** | Capacity (mass, liquidity, connectivity) |
 | **I** | Information (entropy, sentiment, stimulus) |
 | **V** | Value/Potential |
-| **κ** | Gradient penalty |
+| **κ** | Gradient penalty (Spatial Cost) |
 | **β** | Coupling constant |
+| **½I²** | Mass Term (Cost of Existence) |
 
 ---
 
 ## 🔗 Related
 
-- **Lab tests**: `../lab/`
+- **Topics**: `../topics/`
 - **Data sources**: `../data/`
-- **Theory docs**: `../theory/`
+- **Theory docs**: `../`
 
 ---
 
