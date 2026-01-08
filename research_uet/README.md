@@ -81,7 +81,7 @@
 ## 🎯 Core Equation
 
 ```math
-Ω[C, I] = ∫ [V(C) + (κ/2)|∇C|² + β·C·I] dx
+Ω[C, I] = ∫ [V(C) + (κ/2)|∇C|² + β·C·I + ½I²] dx
 ```
 
 | Variable | Meaning |
