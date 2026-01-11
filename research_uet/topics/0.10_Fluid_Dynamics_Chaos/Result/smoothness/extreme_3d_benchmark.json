@@ -1,0 +1,122 @@
+{
+  "description": "3D Extreme Smoothness Benchmark - NS vs UET",
+  "tests": [
+    {
+      "name": "1. Low Re (\u03bd=0.1) - 16\u00b3",
+      "NS": {
+        "smooth": true,
+        "runtime": 0.05160403251647949,
+        "max_laplacian": 11.04180507588319,
+        "blow_up_step": null
+      },
+      "UET": {
+        "smooth": true,
+        "runtime": 0.02563929557800293,
+        "max_laplacian": 1.401581036050743,
+        "blow_up_step": null
+      },
+      "winner": "TIE (both smooth)",
+      "speedup": 2.0126930694910685
+    },
+    {
+      "name": "2. Medium Re (\u03bd=0.01) - 16\u00b3",
+      "NS": {
+        "smooth": true,
+        "runtime": 0.0616300106048584,
+        "max_laplacian": 123.98413283012135,
+        "blow_up_step": null
+      },
+      "UET": {
+        "smooth": true,
+        "runtime": 0.025523900985717773,
+        "max_laplacian": 30.00010550699494,
+        "blow_up_step": null
+      },
+      "winner": "TIE (both smooth)",
+      "speedup": 2.414599971977021
+    },
+    {
+      "name": "3. High Re (\u03bd=0.001) - 16\u00b3",
+      "NS": {
+        "smooth": true,
+        "runtime": 0.1292579174041748,
+        "max_laplacian": 705.048147139709,
+        "blow_up_step": null
+      },
+      "UET": {
+        "smooth": true,
+        "runtime": 0.06523418426513672,
+        "max_laplacian": 447.8539242856924,
+        "blow_up_step": null
+      },
+      "winner": "TIE (both smooth)",
+      "speedup": 1.9814445272868149
+    },
+    {
+      "name": "4. Extreme Re (\u03bd=0.0001) - 16\u00b3",
+      "NS": {
+        "smooth": true,
+        "runtime": 0.12615728378295898,
+        "max_laplacian": 743.2603343871948,
+        "blow_up_step": null
+      },
+      "UET": {
+        "smooth": true,
+        "runtime": 0.06864070892333984,
+        "max_laplacian": 616.3135464181933,
+        "blow_up_step": null
+      },
+      "winner": "TIE (both smooth)",
+      "speedup": 1.8379367836054186
+    },
+    {
+      "name": "5. Large Grid 32\u00b3 - Medium Re",
+      "NS": {
+        "smooth": true,
+        "runtime": 0.13092660903930664,
+        "max_laplacian": 238.57455794228096,
+        "blow_up_step": null
+      },
+      "UET": {
+        "smooth": true,
+        "runtime": 0.07980132102966309,
+        "max_laplacian": 49.497238484917034,
+        "blow_up_step": null
+      },
+      "winner": "TIE (both smooth)",
+      "speedup": 1.64065716394143
+    },
+    {
+      "name": "6. Long Run (1000 steps) - High Re",
+      "NS": {
+        "smooth": true,
+        "runtime": 0.2577972412109375,
+        "max_laplacian": 714.0768034867904,
+        "blow_up_step": null
+      },
+      "UET": {
+        "smooth": true,
+        "runtime": 0.12470340728759766,
+        "max_laplacian": 444.63594589849424,
+        "blow_up_step": null
+      },
+      "winner": "TIE (both smooth)",
+      "speedup": 2.0672830584042643
+    },
+    {
+      "name": "7. Ultra Large 64\u00b3 (UET only)",
+      "NS": "SKIPPED (too slow)",
+      "UET": {
+        "smooth": true,
+        "runtime": 0.6513137817382812,
+        "grid_cells": 262144
+      },
+      "winner": "UET (NS too slow)"
+    }
+  ],
+  "summary": {
+    "ns_wins": 0,
+    "uet_wins": 1,
+    "ties": 6
+  }
+}

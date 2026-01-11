@@ -9,6 +9,19 @@ import sys
 from pathlib import Path
 import json
 import math
+import numpy as np
+
+# === REPRODUCIBILITY: Lock all seeds for deterministic results ===
+try:
+    _root = Path(__file__).parent
+    while _root.name != "research_uet" and _root.parent != _root:
+        _root = _root.parent
+    sys.path.insert(0, str(_root.parent))
+    from research_uet.core.reproducibility import lock_all_seeds
+
+    lock_all_seeds(42)
+except ImportError:
+    np.random.seed(42)  # Fallback
 
 # Define Data Path
 # Script: .../0.12_Vacuum_Energy_Casimir/Code/casimir_effect/

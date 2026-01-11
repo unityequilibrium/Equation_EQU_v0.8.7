@@ -1,6 +1,6 @@
 # 🤝 Contributing to Unity Equilibrium Theory
 
-**Status: 117 Tests / 20 Topics — 98.3% PASS with REAL DATA**
+**Status: 125 Tests / 20 Topics — 98.4% PASS with REAL DATA + Real-Time APIs**
 
 ---
 
@@ -16,9 +16,9 @@ For the last century, physics has been divided. We have **General Relativity** f
 
 | Document | Description |
 |:---------|:------------|
-| [UET_RESEARCH_HUB.md](research_uet/UET_RESEARCH_HUB.md) | Full test matrix (117 tests) |
+| [UET_RESEARCH_HUB.md](research_uet/UET_RESEARCH_HUB.md) | Full test matrix (125 tests) |
 | [SINGLE_SOURCE_OF_TRUTH.md](research_uet/SINGLE_SOURCE_OF_TRUTH.md) | Canonical metrics & DOIs |
-| [DATA_SOURCE_MAP.md](research_uet/DATA_SOURCE_MAP.md) | All 22 data sources |
+| [DATA_SOURCE_MAP.md](research_uet/DATA_SOURCE_MAP.md) | All 25 data sources (incl. real-time APIs) |
 | [topics/](research_uet/topics/) | 20 physics domains |
 
 ---
@@ -86,7 +86,7 @@ pip install -r requirements.txt
 
 ```bash
 python research_uet/topics/run_all_tests.py
-# Expected: 117 tests, 98.3% pass
+# Expected: 125 tests, 98.4% pass
 ```
 
 ### Adding a New Test

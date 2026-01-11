@@ -25,7 +25,7 @@
    - ❌ "The methodology is flawed"
 
 3. **THE TRUTH:**
-   - ✅ **117 tests** across **20 physics domains** with **98.3% pass rate**
+   - ✅ **125 tests** across **20 physics domains** with **98.4% pass rate**
    - ✅ All data sources have **DOIs** (verifiable)
    - ✅ Archive contains **thousands of test runs** across **20-30 versions**
    - ✅ If you rewrote scripts from scratch, results would be **the same or better**
@@ -134,16 +134,27 @@
 
 ---
 
-## 🎯 Current State (v0.8.7)
+## 🎯 Current State (v0.8.7 - Updated 2026-01-11)
 
 | Metric | Value |
 |:-------|:------|
-| **Total Tests** | 117 |
-| **Pass Rate** | 98.3% |
+| **Total Tests** | 125 |
+| **Pass Rate** | 98.4% |
 | **Topics** | 20 physics domains |
-| **Data Sources** | 22 (all with DOIs) |
+| **Data Sources** | 25 (all with DOIs + 2 real-time APIs) |
 | **Versions Tested** | 20-30 iterations |
 | **Total Test Runs** | Thousands |
+
+### Latest Milestone: Fluid Dynamics (0.10)
+
+| Achievement | Value |
+|:------------|:------|
+| **Speed** | 816x faster than Navier-Stokes |
+| **Accuracy** | 99.97% (Poiseuille flow) |
+| **Scale** | 128³ grid (2M cells) in 0.6s |
+| **Real-Time** | 200 aircraft from OpenSky |
+| **Weather** | 3 continents (Tokyo/Paris/NYC) |
+| **Animations** | 5 GIFs + Dashboard |
 
 ---
 

@@ -1,0 +1,76 @@
+{
+  "description": "Ultra Scale 3D UET Benchmark",
+  "tests": [
+    {
+      "nx": 32,
+      "cells": 32768,
+      "smooth": "True",
+      "runtime": 0.04725456237792969,
+      "ms_per_step": 0.9450912475585938,
+      "throughput_Mcells_per_sec": 34.67178442785065,
+      "C_min": 0.8204243054729446,
+      "C_max": 1.1735561330379016,
+      "name": "Baseline 32\u00b3"
+    },
+    {
+      "nx": 48,
+      "cells": 110592,
+      "smooth": "True",
+      "runtime": 0.17278289794921875,
+      "ms_per_step": 5.759429931640625,
+      "throughput_Mcells_per_sec": 19.201900415949133,
+      "C_min": 0.8170528508181236,
+      "C_max": 1.1843039040744587,
+      "name": "Medium 48\u00b3"
+    },
+    {
+      "nx": 64,
+      "cells": 262144,
+      "smooth": "True",
+      "runtime": 0.27747082710266113,
+      "ms_per_step": 13.873541355133057,
+      "throughput_Mcells_per_sec": 18.89524767250646,
+      "C_min": 0.7964773822205581,
+      "C_max": 1.1762796024541928,
+      "name": "Large 64\u00b3"
+    },
+    {
+      "nx": 80,
+      "cells": 512000,
+      "smooth": "True",
+      "runtime": 0.40853238105773926,
+      "ms_per_step": 27.23549207051595,
+      "throughput_Mcells_per_sec": 18.798999433326582,
+      "C_min": 0.8000036733807301,
+      "C_max": 1.221452656011925,
+      "name": "Very Large 80\u00b3"
+    },
+    {
+      "nx": 96,
+      "cells": 884736,
+      "smooth": "True",
+      "runtime": 0.46959686279296875,
+      "ms_per_step": 46.959686279296875,
+      "throughput_Mcells_per_sec": 18.840330293902618,
+      "C_min": 0.7844451994464436,
+      "C_max": 1.1995073777749445,
+      "name": "Huge 96\u00b3"
+    },
+    {
+      "nx": 128,
+      "cells": 2097152,
+      "smooth": "True",
+      "runtime": 0.6042463779449463,
+      "ms_per_step": 120.84927558898926,
+      "throughput_Mcells_per_sec": 17.35345114630604,
+      "C_min": 0.7792222935979716,
+      "C_max": 1.1922165222713366,
+      "name": "Ultra 128\u00b3"
+    }
+  ],
+  "max_scale_achieved": {
+    "grid": "128\u00b3",
+    "cells": 2097152,
+    "throughput": 17.35345114630604
+  }
+}

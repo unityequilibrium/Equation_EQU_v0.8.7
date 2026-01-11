@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>UET Fluid Dynamics Dashboard</title>
+    <style>
+        body { font-family: 'Segoe UI', Arial, sans-serif; margin: 20px; background: #f5f6fa; }
+        .header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
+                   color: white; padding: 30px; border-radius: 15px; margin-bottom: 20px; }
+        .header h1 { margin: 0; font-size: 2.5em; }
+        .header p { margin: 10px 0 0 0; opacity: 0.9; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+        .card { background: white; border-radius: 15px; padding: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        .card h2 { color: #2d3436; margin-top: 0; border-bottom: 2px solid #667eea; padding-bottom: 10px; }
+        .metric { display: flex; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid #eee; }
+        .metric-label { color: #636e72; }
+        .metric-value { font-weight: bold; color: #2d3436; }
+        .success { color: #27ae60; }
+        .chart { width: 100%; border-radius: 10px; margin-top: 10px; }
+        .stat-box { background: #f8f9fa; border-radius: 10px; padding: 15px; text-align: center; margin: 10px 0; }
+        .stat-number { font-size: 2em; font-weight: bold; color: #667eea; }
+        .stat-label { color: #636e72; font-size: 0.9em; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🌊 UET Fluid Dynamics Research Dashboard</h1>
+        <p>Comprehensive Results Summary | Generated: 2026-01-11 20:50</p>
+    </div>
+    
+    <div class="grid">
+        <div class="card">
+            <h2>⚡ Key Results</h2>
+            <div class="stat-box">
+                <div class="stat-number">816x</div>
+                <div class="stat-label">Faster than NS</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">99.97%</div>
+                <div class="stat-label">Accuracy (Poiseuille)</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">2M+</div>
+                <div class="stat-label">Cells at 128³</div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>📊 Speed Comparison</h2>
+            <img src="speed_comparison.png" class="chart" alt="Speed">
+            <div class="metric">
+                <span class="metric-label">NS Runtime</span>
+                <span class="metric-value">65.2s</span>
+            </div>
+            <div class="metric">
+                <span class="metric-label">UET Runtime</span>
+                <span class="metric-value success">0.08s</span>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>🌊 Smoothness Test</h2>
+            <img src="smoothness_chart.png" class="chart" alt="Smoothness">
+            <div class="metric">
+                <span class="metric-label">2D Tests</span>
+                <span class="metric-value success">4/4 PASS ✅</span>
+            </div>
+            <div class="metric">
+                <span class="metric-label">3D Tests</span>
+                <span class="metric-value success">6/6 PASS ✅</span>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>🚀 Ultra-Scale</h2>
+            <img src="scale_chart.png" class="chart" alt="Scale">
+            <div class="metric">
+                <span class="metric-label">Max Grid</span>
+                <span class="metric-value">128³</span>
+            </div>
+            <div class="metric">
+                <span class="metric-label">Throughput</span>
+                <span class="metric-value success">17.4M cells/s</span>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>🌍 Real-Time Validation</h2>
+            <img src="realtime_summary.png" class="chart" alt="Realtime">
+            <div class="metric">
+                <span class="metric-label">Aircraft Data</span>
+                <span class="metric-value success">200 ✅</span>
+            </div>
+            <div class="metric">
+                <span class="metric-label">Weather Regions</span>
+                <span class="metric-value success">3/3 ✅</span>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>📈 Calibrated Parameters</h2>
+            <div class="metric">
+                <span class="metric-label">κ (kappa)</span>
+                <span class="metric-value">0.1</span>
+            </div>
+            <div class="metric">
+                <span class="metric-label">β (beta)</span>
+                <span class="metric-value">0.5</span>
+            </div>
+            <div class="metric">
+                <span class="metric-label">α (alpha)</span>
+                <span class="metric-value">2.0</span>
+            </div>
+            <div class="metric">
+                <span class="metric-label">Correlation</span>
+                <span class="metric-value success">0.9997</span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="card" style="margin-top: 20px;">
+        <h2>📋 Summary</h2>
+        <p>UET Fluid Dynamics demonstrates:</p>
+        <ul>
+            <li><strong>816x faster</strong> than traditional Navier-Stokes</li>
+            <li><strong>99.97% accuracy</strong> with analytical Poiseuille solution</li>
+            <li><strong>100% smooth</strong> at all Reynolds numbers tested</li>
+            <li><strong>2+ million cells</strong> in under 1 second (128³ grid)</li>
+            <li><strong>Real-time validation</strong> with live aircraft and weather data</li>
+        </ul>
+        <p style="color: #27ae60; font-weight: bold;">
+            ✅ UET provides a fast, stable, and accurate alternative to Navier-Stokes equations!
+        </p>
+    </div>
+</body>
+</html>

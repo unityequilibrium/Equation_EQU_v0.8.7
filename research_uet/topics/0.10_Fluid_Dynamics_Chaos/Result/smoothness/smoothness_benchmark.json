@@ -1,0 +1,81 @@
+{
+  "description": "Smoothness benchmark comparing NS and UET",
+  "metrics_explained": {
+    "max_gradient": "Maximum |\u2207u| - first derivative boundedness",
+    "max_laplacian": "Maximum |\u2207\u00b2u| - second derivative boundedness",
+    "max_value": "Maximum field value - should not blow up",
+    "is_smooth": "True if solution remains regular"
+  },
+  "tests": [
+    {
+      "name": "Low Re (\u03bd=0.1)",
+      "NS": {
+        "remained_smooth": true,
+        "final_max_gradient": 16.349332486163274,
+        "final_max_laplacian": 282.67957935161076,
+        "steps_before_blow_up": "N/A (stable)"
+      },
+      "UET": {
+        "remained_smooth": true,
+        "final_max_gradient": 1.6000000000000014,
+        "final_max_laplacian": 1.4688929260762507,
+        "density_stayed_positive": true
+      },
+      "winner": "TIE (both smooth)"
+    },
+    {
+      "name": "Medium Re (\u03bd=0.01)",
+      "NS": {
+        "remained_smooth": true,
+        "final_max_gradient": 17.620809765301924,
+        "final_max_laplacian": 407.2293273937251,
+        "steps_before_blow_up": "N/A (stable)"
+      },
+      "UET": {
+        "remained_smooth": true,
+        "final_max_gradient": 1.6000000000000014,
+        "final_max_laplacian": 21.256024364664768,
+        "density_stayed_positive": true
+      },
+      "winner": "TIE (both smooth)"
+    },
+    {
+      "name": "High Re (\u03bd=0.001)",
+      "NS": {
+        "remained_smooth": true,
+        "final_max_gradient": 17.574890646782173,
+        "final_max_laplacian": 998.4656556774949,
+        "steps_before_blow_up": "N/A (stable)"
+      },
+      "UET": {
+        "remained_smooth": true,
+        "final_max_gradient": 2.810079380848147,
+        "final_max_laplacian": 370.20540819495875,
+        "density_stayed_positive": true
+      },
+      "winner": "TIE (both smooth)"
+    },
+    {
+      "name": "Very High Re (\u03bd=0.0001)",
+      "NS": {
+        "remained_smooth": true,
+        "final_max_gradient": 17.790066533938344,
+        "final_max_laplacian": 1409.254946721471,
+        "steps_before_blow_up": "N/A (stable)"
+      },
+      "UET": {
+        "remained_smooth": true,
+        "final_max_gradient": 4.853969452845055,
+        "final_max_laplacian": 927.5863489286814,
+        "density_stayed_positive": true
+      },
+      "winner": "TIE (both smooth)"
+    }
+  ],
+  "summary": {
+    "ns_wins": 0,
+    "uet_wins": 0,
+    "ties": 4,
+    "conclusion": "UET maintains smoothness via natural regularization from bounded V(C)"
+  }
+}

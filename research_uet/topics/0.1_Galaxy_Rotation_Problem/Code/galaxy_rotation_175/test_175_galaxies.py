@@ -14,11 +14,22 @@ import numpy as np
 import sys
 from pathlib import Path
 
+# === REPRODUCIBILITY: Lock all seeds for deterministic results ===
+try:
+    from research_uet.core.reproducibility import lock_all_seeds
+
+    lock_all_seeds(42)
+except ImportError:
+    np.random.seed(42)  # Fallback
+
+
 # Add parent paths for imports
 # Path: .../research_uet/topics/0.1.../Code/galaxy_rotation_175/test.py
 # Goal: Get to 'research_uet' folder (to import core)
 TEST_FILE = Path(__file__).resolve()
-TOPIC_DIR = TEST_FILE.parent.parent.parent  # research_uet/topics/0.1_Galaxy_Rotation_Problem
+TOPIC_DIR = (
+    TEST_FILE.parent.parent.parent
+)  # research_uet/topics/0.1_Galaxy_Rotation_Problem
 TOPICS_DIR = TOPIC_DIR.parent  # research_uet/topics
 RESEARCH_UET = TOPICS_DIR.parent  # research_uet
 REPO_ROOT = RESEARCH_UET.parent  # Lab_uet_harness...
@@ -295,7 +306,13 @@ def run_test():
         v_uet = uet_rotation_velocity(R, M_disk, R_disk, gtype)
         error = abs(v_uet - v_obs) / v_obs * 100
         results.append(
-            {"name": name, "v_obs": v_obs, "v_uet": v_uet, "error": error, "type": gtype}
+            {
+                "name": name,
+                "v_obs": v_obs,
+                "v_uet": v_uet,
+                "error": error,
+                "type": gtype,
+            }
         )
 
     results.sort(key=lambda x: x["error"])
@@ -356,7 +373,11 @@ def run_test():
 
     # Scientific Rigor: Check for weak links
     min_pass = min(
-        [100 * data["passed"] / data["total"] for t, data in by_type.items() if t in by_type]
+        [
+            100 * data["passed"] / data["total"]
+            for t, data in by_type.items()
+            if t in by_type
+        ]
     )
 
     if avg_error < 12 and min_pass > 60:
@@ -379,7 +400,9 @@ def run_test():
         sorted_types = sorted(by_type.keys())
         avg_errors = [np.mean(by_type[t]["errors"]) for t in sorted_types]
 
-        fig = uet_viz.go.Figure([uet_viz.go.Bar(x=sorted_types, y=avg_errors, marker_color="blue")])
+        fig = uet_viz.go.Figure(
+            [uet_viz.go.Bar(x=sorted_types, y=avg_errors, marker_color="blue")]
+        )
         fig.update_layout(
             title="UET Galaxy Rotation Error by Type",
             xaxis_title="Galaxy Type",
@@ -461,7 +484,10 @@ def run_test():
                     mode="markers",
                     name="Observed Data",
                     marker=dict(
-                        color="black", size=12, symbol="circle-open-dot", line=dict(width=2)
+                        color="black",
+                        size=12,
+                        symbol="circle-open-dot",
+                        line=dict(width=2),
                     ),
                 )
             )
